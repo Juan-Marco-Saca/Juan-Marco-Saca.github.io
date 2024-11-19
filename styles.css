@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #005f73, #0a9396);
+    color: #000000;
+    text-align: center;
+    padding: 30px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+    header h1 {
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    header a {
+        color: #ffdd4a;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+/* Navigation */
+nav {
+    margin-top: 20px;
+}
+
+    nav a {
+        background-color: #0a9396;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 20px;
+        margin: 0 5px;
+        display: inline-block;
+        transition: background 0.3s ease-in-out;
+    }
+
+        nav a:hover {
+            background-color: #005f73;
+        }
+
+/* Sections */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #005f73;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffdd4a;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #005f73;
+    color: #000000;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Hobby Section Styling */
+.hobby-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hobby-image {
+    flex: 1 1 calc(33% - 30px); /* Three images per row */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.hobby-section p {
+    flex: 1 1 100%;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
